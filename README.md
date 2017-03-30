@@ -1,5 +1,5 @@
 # input_specific_palindrome_finder
-Find palindromes by annotating input of dwarf's names.
+
 ####Five Dwarves ( Gimli, Fili, Ilif, Ilmig and Mark) met at the Prancing Pony and played a word game to determine which combinations of their names resulted in a palindrome. Write a program in that prints out all of those combinations.
 
 Here I want to explain another approach to the palindrome problem and the assumptions that I made about the input . These assumptions allowed me to do some preliminary processing on the set of input words and save substantially time on constructing palindromes. The goal was to move away from factorial complexity in all possible places.
